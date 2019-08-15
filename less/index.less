@@ -49,11 +49,113 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+// Variables 
+@mainfont: 'Staatliches', cursive;
+@border: 1px solid lightgrey;
+// Mix-ins
+.parafont(){
+	font-size: .9rem;
+	font-family: 'Raleway', sans-serif;
+	}
+.headerfont(){
+	font-size: 1.6rem;
+	font-family: 'Staatliches', cursive;
+		}	
+.section(){
+	padding: 2%;
+	width: 33%;
+}
+
+// LESS code starts here
 * {
     box-sizing: border-box;
 }
 
 html, body {
 	height: 100%;
+	
 }
 
+nav {
+	display: flex;
+	justify-content: flex-end;
+	a {
+		text-decoration: none;
+		padding: 2%;
+		font-family: @mainfont;
+		font-size: 0.9rem;
+		color: black;
+	}
+	a:hover {
+		color: lightgrey;
+	}
+}
+
+.maincontent {
+	background: rgb(232, 230, 230);
+	display: flex;
+	padding: 5% 0 5% 5%;
+	margin: 0 5% 0 5%;
+	width: 90%;
+.contentimage {
+	padding: 2%;
+}
+	h1 {
+	font-size: 2rem;
+	font-family: @mainfont;	
+	}
+	h2 {
+	font-size: 1rem;
+	border-bottom: @border;
+	padding: 2% 0;
+	.parafont();
+	}
+	h3 {
+	font-family: @mainfont;
+	}
+	
+	img {
+		width: 30%;
+		height: 30%;
+
+	}
+	p {
+		padding: 1% 0;
+		.parafont();
+	}
+}
+.mainsection {
+	padding: 3%;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	font-family: @mainfont;
+
+.skills{
+	.section();
+	}
+	.work{
+		.section();
+		ul{
+			list-style: circle;
+		}
+	}
+h2 {
+	.headerfont();
+	}
+
+p {
+	padding: 1% 0;
+	.parafont();
+	}
+	.contact {
+		.section();
+		address {
+			.parafont();
+		}
+		p {
+			.parafont();
+		}
+	}
+	
+}
