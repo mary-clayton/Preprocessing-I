@@ -84,10 +84,17 @@ nav {
 		padding: 2%;
 		font-family: @mainfont;
 		font-size: 0.9rem;
-		color: black;
+		color: black;	
 	}
 	a:hover {
 		color: lightgrey;
+	}
+	@media screen and (max-width:500px) {
+		background-color: lightgray;
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	   margin-bottom: 5%;
 	}
 }
 
@@ -159,6 +166,18 @@ p {
 		}
 		p {
 			.parafont();
+		}
+	}
+	@media screen and (max-width:500px) {
+		display: flex;
+		flex-flow: column wrap;
+
+		.skills{
+			width: 100%;
+
+		}
+		.work {
+			width: 100%;
 		}
 	}
 	

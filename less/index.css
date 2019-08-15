@@ -148,6 +148,15 @@ nav a {
 nav a:hover {
   color: lightgrey;
 }
+@media screen and (max-width: 500px) {
+  nav {
+    background-color: lightgray;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+}
 .maincontent {
   background: #e8e6e6;
   display: flex;
@@ -222,4 +231,16 @@ nav a:hover {
 .mainsection .contact p {
   font-size: .9rem;
   font-family: 'Raleway', sans-serif;
+}
+@media screen and (max-width: 500px) {
+  .mainsection {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .mainsection .skills {
+    width: 100%;
+  }
+  .mainsection .work {
+    width: 100%;
+  }
 }
