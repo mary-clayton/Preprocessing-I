@@ -193,6 +193,11 @@ nav a:hover {
   font-size: 0.9rem;
   font-family: 'Raleway', sans-serif;
 }
+@media screen and (max-width: 500px) {
+  .maincontent .contentimage p {
+    width: 100%;
+  }
+}
 .mainsection {
   padding: 3%;
   display: flex;
@@ -207,9 +212,6 @@ nav a:hover {
 .mainsection .work {
   padding: 2%;
   width: 33%;
-}
-.mainsection .work ul {
-  list-style: circle;
 }
 .mainsection h2 {
   font-size: 1.6rem;
