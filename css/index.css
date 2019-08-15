@@ -158,6 +158,9 @@ nav a:hover {
 .maincontent .contentimage {
   padding: 2%;
 }
+.maincontent .contentimage p {
+  width: 60%;
+}
 .maincontent h1 {
   font-size: 2rem;
   font-family: 'Staatliches', cursive;
