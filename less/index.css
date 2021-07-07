@@ -178,7 +178,7 @@ nav a:hover {
   font-size: 1rem;
   border-bottom: 1px solid lightgrey;
   padding: 2% 0;
-  font-size: 0.9rem;
+  font-size: .9rem;
   font-family: 'Raleway', sans-serif;
 }
 .maincontent h3 {
@@ -190,7 +190,7 @@ nav a:hover {
 }
 .maincontent p {
   padding: 1% 0;
-  font-size: 0.9rem;
+  font-size: .9rem;
   font-family: 'Raleway', sans-serif;
 }
 @media screen and (max-width: 500px) {
@@ -220,7 +220,7 @@ nav a:hover {
 }
 .mainsection p {
   padding: 1% 0;
-  font-size: 0.9rem;
+  font-size: .9rem;
   font-family: 'Raleway', sans-serif;
 }
 .mainsection .contact {
@@ -228,7 +228,7 @@ nav a:hover {
   width: 33%;
 }
 .mainsection .contact p {
-  font-size: 0.9rem;
+  font-size: .9rem;
   font-family: 'Raleway', sans-serif;
 }
 .mainsection .contact a {
